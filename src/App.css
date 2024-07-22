@@ -1,0 +1,54 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 30px;
+  margin: 20px auto 40px;
+}
+
+.card {
+  padding: 2em;
+}
+
+.loader {
+  font-size: 23px;
+  color: #fff;
+}
+
+.error {
+  border-radius: 20px;
+  border: 2px solid #ff0000;
+  padding: 10px;
+  color: #ff0000;
+  font-size: 16px;
+  background-color: #fff;
+}
+
+.blogg-post-container {
+  text-align: left;
+}
+
+.blogg-post-container ol {
+  padding: 0;
+  margin:0;
+}
+
+.blogg-post-container ol li {
+  border: 2px solid #000;
+  padding: 10px;
+
+  margin-bottom: 10px;
+  color: #000;
+  background-color: #fff;
+  border-radius: 10px;
+}
